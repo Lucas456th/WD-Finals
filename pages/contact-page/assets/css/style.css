@@ -24,9 +24,16 @@
   --sec-two-bg-clr: var(--mobile-menu-bg-clr);
   --form-bg-clr: #dcf1ff70;
   --form-focus-bg-clr: #bf93cf73;
-  --gray-clr: #f5f8fa;
+  --gray-clr: #ffffff;
   --product-bg-clr: #364f63;
   --bx-shadow-clr: #6d477b33;
+}
+
+/* Example usage of the image */
+body {
+  background-image: var(--background-img);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* Base styles */
@@ -126,7 +133,7 @@ header {
   color: black;
   font-weight: bolder;
   transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
-  box-shadow: -5px 5px 0px 0px green;
+  box-shadow: -5px 5px 0px 0px rgb(60, 139, 60);
 }
 
 .logo:hover {
@@ -177,77 +184,82 @@ header {
   display: flex;
   gap: 1.5rem;
 }
-/* Contact Section */
+
+
 .contact-section {
-    background-color: var(--gray-clr);
-    color: black;
-    padding: 4rem 0;
-    text-align: center;
+  background-image: url('../img/highway.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: greenyellow;
+  text-shadow: 2px 3px 2px rgb(0, 0, 0);
+  text-align: center;
+  padding: 4rem 0; /* Adjust padding for better spacing */
 }
 
 .contact-section h2 {
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .contact-section p.animated-text {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
-    animation: fadeInUp 1s ease-out;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  animation: fadeInUp 1s ease-out;
+}
+
+.contact-section .contact-info {
+  margin-bottom: 2rem;
+}
+
+.contact-section .contact-info p {
+  font-size: 1.8rem; /* Increase font size for contact details */
+  margin-bottom: 1rem;
 }
 
 .contact-section form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .contact-section form input,
 .contact-section form textarea,
 .contact-section form button {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 1rem;
-    padding: 1rem;
-    font-size: 1.2rem;
-    border: 2px solid var(--primary-clr-alt);
-    background-color: var(--form-bg-clr);
-    color: var black;
-    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+  border: 2px solid var(--primary-clr-alt);
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s, border-color 0.3s, color 0.3s;
 }
 
 .contact-section form input:focus,
 .contact-section form textarea:focus {
-    background-color: var(--form-focus-bg-clr);
-    border-color: var(--primary-clr);
+  background-color: whitesmoke;
+  border-color: var(--primary-clr);
 }
 
 .contact-section form textarea {
-    resize: vertical;
-    min-height: 150px;
+  resize: vertical;
+  min-height: 150px;
 }
 
 .contact-section form button {
-    cursor: pointer;
-    font-size: 1.5rem;
-    background-color: var(--primary-clr);
-    color: var black;
-    border: none;
-    transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+  font-size: 1.5rem;
+  background-color: rgb(208, 0, 0);
+  color: rgb(255, 255, 255);
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 .contact-section form button:hover {
-    background-color: var(--second-clr);
+  background-color: yellowgreen;
 }
-
-/* Animations */
-@keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
+.container1 {
+  text-align: center;
+  color: #ffffff;
 }

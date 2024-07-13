@@ -417,6 +417,33 @@ header {
   .hand-hole-cake-img {
     width: 120px;
   }
+/* General Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
 }
 
+.footer .container {
+  display: flex;
+  justify-content: center;
+}
 
+.footer .footer-content {
+  margin: 10px 0;
+}
+
+/* Fixed Footer for Desktop View */
+@media (min-width: 1024px) {
+  .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
+.container1{
+  text-align: center;
+}
