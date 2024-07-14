@@ -117,10 +117,15 @@ WD-ProjectName
 <!-- TODO: Add References -->
 Title | Purpose | Link |
 |-|-|-|
-| text animations | used this as a guide for animations | https://www.w3schools.com/css/default.asp |
+| Text animations | used this as a guide for animations | https://www.w3schools.com/css/default.asp |
 | Button Effects and Animations| used this as a reference for button effects | https://uiverse.io/ferlagher/afraid-dingo-99 |
-| Button Icons | used this for icons and png buttons | https://www.flaticon.com/search?word=github |
+| Button Icons | used this for icons and png buttons | https://www.flaticon.com/free-icons/logo |
 | Overlay animations | used this for css button animations | https://dev.to/afif/100-underline-overlay-animation-the-ultimate-css-collection-4p40 |
-| Reference templates | used this as a guide Template | https://colorlib.com/wp/cat/landing-page/ |
+| landing templates references | used this as a guide Template | https://colorlib.com/wp/cat/landing-page/ |
+| Icon templates | used this as a source code reference for icons | https://boxicons.com/ |
+| Font styles | used this as a source code reference for font styles | https://fonts.google.com/ |
+
+
+
 
 
