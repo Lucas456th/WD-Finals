@@ -68,9 +68,10 @@ The purpose of the project is to create a digital portfolio that demonstrates my
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website 
+- Header and footer animations
+- Project Showcase
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -124,6 +125,7 @@ Title | Purpose | Link |
 | landing templates references | used this as a guide Template | https://colorlib.com/wp/cat/landing-page/ |
 | Icon templates | used this as a source code reference for icons | https://boxicons.com/ |
 | Font styles | used this as a source code reference for font styles | https://fonts.google.com/ |
+
 
 
 
