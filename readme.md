@@ -70,7 +70,29 @@ The purpose of the project is to create a digital portfolio that demonstrates my
 <!-- The following are just sample -->
 - MultiPage Website 
 - Header and footer animations
+- Navigations
 - Project Showcase
+- Hover transitions
+
+### Deployment Link
+https://lucas456th.github.io/WD-Finals/
+
+### Projects
+- Seatwork 1
+https://docs.google.com/document/d/1RD3FZt7Khdz_G67rH09rR-OHeBuG_zuThshBCWfPN3w/edit?usp=sharing
+- Seatwork 2 
+https://github.com/Lucas456th/WD-Seatwork2
+- Seatwork 3 
+https://github.com/Lucas456th/WD-Seatwork3
+- Seatwork 4
+ https://github.com/Lucas456th/WD-Seatwork4
+
+### Wakatime
+https://wakatime.com/projects/WD-Finals
+
+
+
+
 
 
 ### Technology
@@ -91,24 +113,41 @@ The purpose of the project is to create a digital portfolio that demonstrates my
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+WD-FINALS
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
+|   |   └─ fileWith.jpg/.png
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
+|  └─  about-page
+|  |  └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |     └─ fileWith.jpg/.png
+|  |   └─ index.html
+└─ └─ contact-page
+|  |  └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |     └─ fileWith.jpg/.png
+|  |   └─ index.html
+|  └─  credits-page
+|  |  └─ assets
+|  |   |  └─ css
+|  |   |     └─ style.css
+|  |   └─ index.html
+└─ └─ project-page
+|  |  └─ assets
+|  |   |  └─ css
+|  |   |  |  └─ style.css
+|  |   |  └─ img
+|  |   |     └─ fileWith.jpg/.png
+|  |   └─ index.html
 └─ index.html
 └─ readme.md
 ```
